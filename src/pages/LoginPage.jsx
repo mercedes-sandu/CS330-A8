@@ -13,7 +13,7 @@ function LoginPage({ setLoggedIn }) {
           width: "40vw",
           height: "60vh",
           backgroundColor: theme.palette.primary[3],
-          mt: "20vh",
+          mt: "10vh",
           borderRadius: "50px",
           display: "flex",
           flexDirection: "column",

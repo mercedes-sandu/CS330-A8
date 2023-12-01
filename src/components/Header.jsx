@@ -26,6 +26,7 @@ function Header({ loggedIn }) {
         pr: 5,
         border: `10px solid ${theme.palette.text.primary}`,
         filter: "drop-shadow(6px 12px rgba(0, 0, 0, 1))",
+        zIndex: 2,
       }}
     >
       <Box
