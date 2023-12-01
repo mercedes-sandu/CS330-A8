@@ -58,7 +58,7 @@ export const theme = createTheme({
     h5: {
       fontFamily: "Overpass Mono",
       fontWeight: 600,
-      fontSize: "1.6rem",
+      fontSize: "3rem",
     },
     body1: {
       fontFamily: "Overpass Mono",

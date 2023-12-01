@@ -52,15 +52,22 @@ function LandingPage() {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ width: "90vw", height: "auto", display: "flex", flexDirection: "column" }}>
-        <Typography variant="h3">Recently Viewed</Typography>
+      <Box
+        sx={{
+          width: "90vw",
+          height: "auto",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <Typography variant="h5">Recently Viewed</Typography>
         <Box
           sx={{
             width: "90vw",
             display: "flex",
             justifyContent: "space-evenly",
             alignItems: "center",
-            mt: 3,
+            mt: 2,
           }}
         >
           <CaevasCard
