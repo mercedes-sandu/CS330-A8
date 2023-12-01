@@ -9,7 +9,7 @@ import HomePage from "./pages/HomePage";
 import HelpPage from "./pages/HelpPage";
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(true); // todo: set back to false
+  const [loggedIn, setLoggedIn] = useState(false);
 
   return (
     <ThemeProvider theme={theme}>
