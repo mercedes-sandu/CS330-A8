@@ -7,6 +7,9 @@ import { useState } from "react";
 import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
 import HelpPage from "./pages/HelpPage";
+import SearchPage from "./pages/SearchPage";
+import CanvasPage from "./pages/CanvasPage";
+import CtecsPage from "./pages/CtecsPage";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -20,6 +23,9 @@ function App() {
           <Route path="/landing" element={<LandingPage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/help" element={<HelpPage />} />
+          <Route path="/search" element={<SearchPage />} />
+          <Route path="/canvas" element={<CanvasPage />} />
+          <Route path="/ctecs" element={<CtecsPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

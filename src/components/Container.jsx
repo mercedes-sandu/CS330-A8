@@ -5,11 +5,12 @@ function Container({ children }) {
     <Box
       sx={{
         display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
+        flexDirection: "column",
+        justifyContent: "space-between",
         alignItems: "center",
         width: "100vw",
-        height: "84vh",
+        height: "70vh",
+        pb: 10,
       }}
     >
       {children}

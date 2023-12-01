@@ -84,7 +84,8 @@ function Header({ loggedIn }) {
               <ArrowBackIcon
                 sx={{
                   color: theme.palette.text.primary,
-                  fontSize: "2.3rem",
+                  width: "100%",
+                  height: "100%",
                 }}
               />
             </Box>
@@ -122,7 +123,8 @@ function Header({ loggedIn }) {
               <QuestionMarkIcon
                 sx={{
                   color: theme.palette.text.primary,
-                  fontSize: "2.3rem",
+                  width: "100%",
+                  height: "100%",
                 }}
               />
             </Box>
@@ -160,7 +162,8 @@ function Header({ loggedIn }) {
               <HomeIcon
                 sx={{
                   color: theme.palette.text.primary,
-                  fontSize: "2.3rem",
+                  width: "100%",
+                  height: "100%",
                 }}
               />
             </Box>
@@ -183,7 +186,8 @@ function Header({ loggedIn }) {
             <PersonOutlineIcon
               sx={{
                 color: theme.palette.background.default,
-                fontSize: "2.3rem",
+                width: "85%",
+                height: "85%",
               }}
             />
           </Box>
