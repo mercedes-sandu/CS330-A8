@@ -10,7 +10,7 @@ function Container({ children }) {
         alignItems: "center",
         width: "100vw",
         height: "70vh",
-        pb: 10,
+        pb: 6,
       }}
     >
       {children}

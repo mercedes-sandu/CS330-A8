@@ -68,6 +68,7 @@ function LandingPage() {
             justifyContent: "space-evenly",
             alignItems: "center",
             mt: 2,
+            mb: 8,
           }}
         >
           <CaevasCard
